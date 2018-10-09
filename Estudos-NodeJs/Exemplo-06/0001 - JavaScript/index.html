@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JavaScript</title>
+        <!--JavaScript-->
+        <script src="js/script.js"></script>
+        <script src="js/es6.js"></script>
+        <style>
+            .uma{
+                color: red;
+            }
+            .duas{
+                color: green;
+            }
+            div{
+                margin-top: 20px;
+                padding-left: 10px;
+                border: 1px solid black;
+            }
+            #img{
+                margin: 20px;
+                padding: 5px;
+            }
+            h3{
+                border: 1px solid red;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body onload="iniciar()">
+
+        <p id='info'>[Resultados]</p>
+        <button type="button" onclick="DOMmanipulation()">Clicar</button>
+
+        <hr><!--==========================================================-->
+
+        <p id="primeiro" class="uma">Primeira frase</p>
+        <p id="segundo" class="uma">Segunda frase</p>
+        <p class="uma">Segunda frase</p>
+
+        <hr><!--===================== AULA 3 DOM ==========================-->
+
+        <p id="p1">Parágrafo 1</p>
+        <p id="p2">Parágrafo 2</p>
+        <p id="p3">Parágrafo 3</p>
+        <p id="p4">Parágrafo 4</p>
+
+        <a id="link" class="uma" href="http://google.com">Clique aqui!</a>
+
+        <div id="div1">
+            <h3>Div 1</h3>
+            <img id="imagem" src="https://scontent.fssz6-1.fna.fbcdn.net/v/t1.0-1/c3.0.320.320/p320x320/13226912_571617863044853_5679315957716600320_n.png?_nc_cat=0&oh=52fb9c546c67375a693f656e9fa3fb27&oe=5BC19973">
+        </div>
+
+        <div id="div2">
+            <h3>Div 2</h3>
+        </div>
+
+        <hr><!--===================== AULA 4 DOM ==========================-->
+
+        <div>
+            <img id="img" src="https://cdn4.iconfinder.com/data/icons/generic-interaction/143/yes-tick-success-done-complete-check-allow-128.png">
+        </div>
+
+        <hr><!--===================== AULA 4 DOM ==========================-->
+        
+        <button id="botao" type="button" onclick="ApresentarData()">Apresentar data</button>
+
+        <p onclick="alterar(this)">texto 1</p>
+        <p onclick="alterar(this)">texto 2</p>
+
+        <p id="date">(Date)</p>
+
+        <hr>
+
+        <h3 onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="clik(this)">Texto 1</h3>
+        <h3 onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="clik(this)">Texto 2</h3>
+
+    </body>
+</html>
