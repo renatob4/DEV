@@ -1,0 +1,25 @@
+/*CSS CABECALHO*/
+.cabecalho {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-color: black;
+    color: white; 
+}
+.contentor-menu{
+    background-color: #293d50;
+    border-bottom: lightseagreen solid 2px;
+    border-top: lightseagreen solid 2px;
+}
+.contentor-menu a{
+    text-decoration: none;
+    color: white;
+}
+.contentor-menu a:hover{
+    text-decoration: none;
+    color: rgb(62, 194, 247);
+}
+.texto-menu{
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}

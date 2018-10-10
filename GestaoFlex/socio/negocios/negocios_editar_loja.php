@@ -1,0 +1,1 @@
+<p class="text-center m-2">Nesta pagina será feita a edição das informações de uma loja ja existente</p>

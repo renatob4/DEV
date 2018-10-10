@@ -1,0 +1,19 @@
+.card-loja{
+    background-color: grey; 
+    height: 120px;  
+}
+#imgloja {
+    height: 102px;
+    width: 613px;
+    padding: 0px; 
+    margin: 0px;
+}
+.borda-loja{
+    border: 3px solid rgb(62, 194, 247);
+}
+.backimage{
+    background-image: url('../../images/store-form.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}

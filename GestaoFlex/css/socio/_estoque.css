@@ -1,0 +1,32 @@
+#btn-stock{
+    padding-top: 0px;
+    font-size: 4.8em;
+}
+.borda-entrada{
+    border: 3px solid green;
+}
+.borda-saida{
+    border: 3px solid rgb(8, 161, 167);
+}
+.borda-cinza{
+    border: 3px solid rgb(230,230,230);
+}
+.borda-cadastro{
+    border: 3px solid black;
+}
+.lb-search{
+    font-size: 14pt;
+}
+.lb-code{
+    border-bottom: 1px solid black;
+}
+.card-result{
+    background-color: rgb(230,230,230);
+}
+.botao-card-conclui{
+    width: 130px;
+    height: 130px;
+    font-size: 5.0em;
+    padding-top: 25px; 
+    padding-top: 10px; 
+}

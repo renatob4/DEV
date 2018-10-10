@@ -1,0 +1,45 @@
+.espaco-services{
+    padding: 20px 0px;
+}
+.espaco-paineis{
+    margin: 10px;
+    padding: 15px;
+    border: 3px solid rgb(62, 194, 247);
+}
+.titulo-painel{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.botao-card{
+    width: 120px;
+    height: 120px;
+    font-size: 4.2em;
+    padding-top: 20px; 
+}
+.botao-card-form{
+    width: 120px;
+    height: 120px;
+    font-size: 4.5em;
+    padding-top: 25px; 
+}
+.borda-text{
+    border:  lightseagreen 2px solid;
+}
+.bgreen{
+    border-top: solid 1px green;
+}
+.bgreenfull{
+    border: solid 1px green;
+}
+h3{
+    color:  lightseagreen;
+    opacity: 0.6;
+}
+h5{
+    color:  lightseagreen;
+    opacity: 0.8;
+    font-size: 1.2em;
+}
+#icons{
+    opacity: 0.5;
+}
