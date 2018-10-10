@@ -1,0 +1,1 @@
+alert('Opa, olá mundo!');

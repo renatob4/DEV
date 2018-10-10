@@ -1,3 +1,17 @@
+//importando funçoes de outro arquivo.
+import{ sub } from './funcoes';
+console.log(sub(3,2));
+
+//importando funções DEFAULT
+import soma from './soma';
+console.log(soma(1,2));
+
+//importando varias funçoes de uma vez com um array de objetos
+import * as funcoes from './funcoes';
+console.log(funcoes.div(10,2));
+
+
+
 //Metodos estaticos --------------------------------------------------------------
 
 class Matematica{
