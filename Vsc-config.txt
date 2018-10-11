@@ -1,0 +1,17 @@
+Configurações user settings Visual Studio Code.
+
+{
+    "php.executablePath": "C:\\laragon\\bin\\php\\php-7.1.12-Win32-VC14-x64\\php.exe",
+    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.1.12-Win32-VC14-x64\\php.exe",
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "files.autoSave": "afterDelay",
+    "vsicons.presets.hideExplorerArrows": true,
+    "vsicons.projectDetection.autoReload": true,
+    "vsicons.presets.foldersAllDefaultIcon": true,
+    "git.ignoreMissingGitWarning": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 16,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "explorer.confirmDelete": false
+}
