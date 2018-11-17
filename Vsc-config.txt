@@ -15,3 +15,5 @@ Configurações user settings Visual Studio Code.
     "editor.multiCursorModifier": "ctrlCmd",
     "explorer.confirmDelete": false
 }
+
+atualizado;
