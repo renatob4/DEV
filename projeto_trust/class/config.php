@@ -14,7 +14,7 @@ return [
     'MAIL_HOST'         => 'smtp.gmail.com',
     'MAIL_PORT'         => 587,
     'MAIL_USERNAME'     => 'rrcosta94@gmail.com',
-    'MAIL_PASSWORD'     => 'quarentaedois',
+    'MAIL_PASSWORD'     => '****',
     'MAIL_FROM'         => 'rrcosta94@gmail.com',
     'MAIL_DEBUG'        => 0,  
 
